@@ -70,7 +70,8 @@ namespace SourceLiveTimer.View
             nameLabel.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
             nameLabel.BackColor = Color.Transparent;
             nameLabel.AutoEllipsis = true;
-            nameLabel.AutoSize = true;
+            nameLabel.AutoSize = false;
+            nameLabel.Dock = DockStyle.Fill;
             nameLabel.Font = SPLIT_TEXT_FONT;
             nameLabel.ForeColor = SPLIT_DEFAULT_TEXT_COLOR;
             nameLabel.Location = new System.Drawing.Point(160, 0);
